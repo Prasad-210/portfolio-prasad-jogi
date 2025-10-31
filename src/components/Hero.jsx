@@ -1,5 +1,5 @@
 import { meta, summary } from "../data/resume";
-import photo from '../assets/photo.jpeg'
+import Photo from '../assets/Photo.jpeg'
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-card">
-          <img src={photo} alt="Profile" className="avatar-placeholder" />
+          <img src={Photo} alt="Profile" className="avatar-placeholder" />
           <div className="quick-info">
             <p><strong>Location:</strong> {meta.location}</p>
             <p><strong>Phone:</strong> {meta.phone}</p>
